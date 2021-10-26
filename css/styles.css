@@ -1,0 +1,62 @@
+/* главние цвета страницы */
+:root {
+--background-color-body: #fff   ; 
+--color-item: #757575;
+--color-head-basic: #212121;
+--color-head-second:#2196F3;
+
+
+}
+
+/* ----------body-------------- */
+body {
+
+    background-color: var(--background-color-body) ;
+    color: var(--color-item)
+}
+
+a {text-decoration:none}
+
+li {list-style: none; }
+h1,h2,h3,h4{ color: var(--color-head-basic) }
+
+/* -----------header------------- */
+
+/* логотип */
+
+.color-logo-basic,
+.color-logo-second {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
+.color-logo-basic{color: var(--color-head-basic);}
+.color-logo-second {color: var(--color-head-second)}
+
+
+/* навигация */
+ .nav-webstudio,
+ .nav-portfolio,
+ .nav-contact,
+ .link-mail,
+ .link-telephone
+ {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 0.02em;
+ }
+
+
+ .nav-webstudio{color: var(--color-head-second);}
+ .nav-portfolio{color:var(--color-head-basic)}
+ .nav-contact{color: var(--color-head-basic);}
+ .link-mail{color:var(--color-head-second);}
+ .link-telephone{ color: var(--color-item);}
+    
+ 
