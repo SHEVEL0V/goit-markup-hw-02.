@@ -26,7 +26,8 @@ body {
 /* логотип */
 
     .color-logo-basic,
-    .color-logo-second {
+    .color-logo-second,
+    .color-logo-footer {
     font-family: Raleway;
     font-weight: bold;
     font-size: 26px;
@@ -37,7 +38,7 @@ body {
 }
     .color-logo-basic{color: var(--color-head-basic);}
     .color-logo-second {color: var(--color-head-second)}
-
+    .color-logo-footer{ color: var(--background-color-body);}
 
 /* навигация */
     .nav-stile,
