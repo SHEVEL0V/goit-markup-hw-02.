@@ -45,7 +45,7 @@ body {
        
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.3;
+    line-height: 1.14;
     letter-spacing: 0.02em;}
 
     .nav-stile{
@@ -64,7 +64,7 @@ body {
  
  /*  ---------------------main--------------------- */
  /* заказ услуг */
- .services-title{
+ .hero-title{
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -73,7 +73,7 @@ body {
     background-color: #2F303A;
     text-align: center;
  }
- .services-button{
+ .hero-button{
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
@@ -84,8 +84,8 @@ body {
     color: var(--background-color-body);
     background-color: var(--color-head-second);
  }
- .services-button:hover,
- .services-button:focus{
+ .hero-button:hover,
+ .hero-button:focus{
      background-color:tomato
  }
  /* наши качества */
@@ -133,13 +133,15 @@ body {
     
 
 /* --------------footer------------- */
-.address{
+.address-street,
+.address-info{
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;}
+    letter-spacing: 0.03em;
+    cursor: default}
     
 
- .address{color: var(--background-color-body);}
+ .address-street{color: var(--background-color-body);}
  .address-info {color: rgba(255, 255, 255, 0.6)}  
 
 
@@ -152,6 +154,7 @@ body {
 }
 /* навигация */
 .portfolio-button{
+    font-family:Roboto ;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -159,6 +162,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--color-head-basic);
     background-color: var(--background-color-body);
+    
     
 }
 .portfolio-button:hover,
