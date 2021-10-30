@@ -138,7 +138,9 @@ body {
 .address-info{
     font-size: 14px;
     line-height: 1.7;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.03em;}
+
+.none-cursor{
     cursor: default}
     
 
